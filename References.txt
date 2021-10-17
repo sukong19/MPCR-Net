@@ -1,0 +1,16 @@
+We would like to thank the authors of Masknet PointNet, PRNet, RPM-Net and PointNetLK for sharing their codes.
+
+References:
+PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
+
+PPFNet: Global Context Aware Local Features for Robust 3D Point Matching
+
+PointNetLK: Robust & Efficient Point Cloud Registration using PointNet
+
+PCRNet: Point Cloud Registration Network using PointNet Encoding
+
+PRNet: Self-Supervised Learning for Partial-to-Partial Registration
+
+RPM-Net: Robust Point Matching using Learned Features
+
+MaskNet: A Fully-Convolutional Network to Estimate Inlier Points
