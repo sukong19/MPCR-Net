@@ -16,7 +16,7 @@ class itmpeNet(nn.Module):
 	def __init__(self, feature_model=PointNet(), droput=0.5, pooling='max'):## drop 50% neurons
 		super().__init__()
 		# self.feature_model = feature_model
-		self.feature_model = feature_model
+		self.feature_model = feature_model 
 		self.pooling = Pooling(pooling)
 
 		self.linear = [nn.Linear(self.feature_model.emb_dims * 2, 1024), nn.ReLU(),
