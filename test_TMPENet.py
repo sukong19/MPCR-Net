@@ -17,7 +17,7 @@ from torch.autograd import Variable
 
 # Only if the files are in example folder.
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-if BASE_DIR[-8:] == 'examples':
+if BASE_DIR[-8:] == 'examples': 
 	sys.path.append(os.path.join(BASE_DIR, os.pardir))
 	os.chdir(os.path.join(BASE_DIR, os.pardir))
 
