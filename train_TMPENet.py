@@ -23,7 +23,7 @@ sys.path.append('E:\Mtmpe-Net\TMPENet\tmpenet\models')
 import tmpenet
 from tmpenet import itmpeNet
 import pointnet
-from pointnet import PointNet
+from pointnet import PointNet 
 sys.path.append('E:\Mtmpe-Net\TPCCNet\learning3d\models')
 import tpccnet
 from tpccnet import tpccNet
