@@ -23,7 +23,7 @@ from TPCCNet.learning3d.data_utils import RegistrationData, ModelNet40Data, User
 from TPCCNet.registration import Registration
 
 def pc2open3d(data):
-	if torch.is_tensor(data): data = data.detach().cpu().numpy()
+	if torch.is_tensor(data): data = data.detach().cpu().numpy() 
 	if len(data.shape) == 2:
 		pc = o3d.geometry.PointCloud()
 		pc.points = o3d.utility.Vector3dVector(data)
