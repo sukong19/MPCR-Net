@@ -19,8 +19,6 @@ from pointnet import PointNet
 from tmpenet import itmpeNet
 from rpmnet import RPMNet
 from pointnetlk import PointNetLK
-from dgcnn import DGCNN
-from dcp import DCP
 from prnet import PRNet
 
 # ICP registration module.
