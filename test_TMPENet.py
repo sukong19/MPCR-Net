@@ -280,7 +280,7 @@ def main():
 
 	# Load Pretrained tpccNet.
 	model = tpccNet()
-	ptnet = PointNet(emb_dims=args.emb_dims)
+	ptnet = PointNet(emb_dims=args.emb_dims) 
 	model2 =tmpenet(feature_model=ptnet)
 	if args.pretrained:
 		assert os.path.isfile(args.pretrained)
