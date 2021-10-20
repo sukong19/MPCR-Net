@@ -6,7 +6,7 @@ import numpy
 import numpy as np
 import torch
 import torch.utils.data
-import torchvision
+import torchvision 
 from torch.utils.data import DataLoader
 from tensorboardX import SummaryWriter
 from tqdm import tqdm
